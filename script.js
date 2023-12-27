@@ -17,6 +17,7 @@ function sum(number1, number2) {
   let dasham = Number(prompt("enter number:"));
   let dashesh = prompt("enter operation:'+','*'");
   let dashemon = Number(prompt("enter number:"));
+  // let khoroji 
   
   if (dashesh == "+") {
     console.log(sum(dasham, dashemon));
@@ -30,3 +31,4 @@ function sum(number1, number2) {
   if (dashesh == "-") {
     console.log(negative(dasham, dashemon));
   }
+  // document.write(khoroji)
