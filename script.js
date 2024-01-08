@@ -2,11 +2,11 @@
 // gmail:nimapizll.nn@gmail.com
 
 // in ja chand function tarif kardim ta da har kodom amalyataei ke mikhahim anjam dahim varde konim(dar ye function ham mishe vared kard ya bar aks)
-function sum(number1, number2) {
+function plus(number1, number2) {
   return number1 + number2;
 }
 
-function plus(number1, number2) {
+function multiplication(number1, number2) {
   return number1 * number2;
 }
 
@@ -24,10 +24,10 @@ let dashemon = Number(prompt("enter number:"));
 
 // bad in ke adad haro gereft dar dastor ha migarde ta on chizi ke karbar khasete ro peyda mikone va ejra mishe
 if (dashesh == "+") {
-  console.log(sum(dasham, dashemon));
+  console.log(plus(dasham, dashemon));
 }
 if (dashesh == "*") {
-  console.log(plus(dasham, dashemon));
+  console.log(multiplication(dasham, dashemon));
 }
 if (dashesh == "/") {
   console.log(knock(dasham, dashemon));
